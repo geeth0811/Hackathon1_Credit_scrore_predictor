@@ -8,7 +8,7 @@ h2o.init()
 #Using the South German Credit (UPDATE) Data Set
 #Dataset Link : https://archive.ics.uci.edu/ml/datasets/South+German+Credit+%28UPDATE%29
 
-dataset = "./SouthGermanCredit/SouthGermanCredit.csv"
+dataset = "./SouthGermanCredit/SouthGermanCredit.asc"
 df = h2o.import_file(dataset)
 
 # Reponse column
